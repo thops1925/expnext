@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div>
-      <h1>about</h1>
+    <div className="font-montserrat">
+      <h1 className="text-lg capitalize">about me</h1>
     </div>
   );
 }

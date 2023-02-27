@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>About</title>
+      <title className="text-lg">About me</title>
     </>
   );
 }
