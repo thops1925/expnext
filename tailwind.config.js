@@ -12,7 +12,10 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["var(--font-montserrat)"]
-      }
+      },
+      gridTemplateColumns: {
+        fluid: "repeat(auto-fit,minmax(25rem,1fr))"
+      },
     },
   },
   plugins: [],
